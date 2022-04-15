@@ -1,0 +1,47 @@
+#NavModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+.navIcon {
+    z-index: 9999;
+    transform: scale(2);
+    margin: 20px;
+}
+#modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 9998;
+    background-color: rgb(0, 0, 0, 0.75);
+    cursor: default;
+}
+.contentWrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+@media screen and (max-width:990px) {
+
+    #NavModal {
+        display: flex;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link {
+        padding: 10px;
+    }
+
+}

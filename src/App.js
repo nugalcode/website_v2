@@ -5,6 +5,7 @@ import Projects from './components/Projects.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
 import NavHeader from './components/NavHeader.js'
+import NavModal from './components/NavModal.js';
 
 function App() {
 
@@ -15,6 +16,10 @@ function App() {
 
     return (
         <div className="App">
+            <NavModal homeRef={homeRef}
+                projectsRef={projectsRef}
+                aboutRef={aboutRef}
+                contactRef={contactRef}/>
             <NavHeader
                 homeRef={homeRef}
                 projectsRef={projectsRef}
