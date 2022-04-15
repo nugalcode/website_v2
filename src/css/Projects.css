@@ -8,9 +8,60 @@
 .projectsWrap {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .project {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: cadetblue;
+    flex-basis: 30%;
+    margin: 20px;
+}
+
+.projectTitle {
+    padding: 30px;
+    font-size: 2rem;
+}
+
+.projectDescription {
+    display: flex;
+    flex-direction: column;
+}
+.technologies {
+    display: flex;
+    list-style-type: circle;
+    justify-content: center;
+    align-self: center;
+}
+
+.technologies li {
+    margin: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionList {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.descriptionList li {
+    margin: 5px 10px 5px 10px;
+}
+
+.myRole {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectSubtitle {
+    font-size: 1.3rem;
+    margin: 10px;
 }
