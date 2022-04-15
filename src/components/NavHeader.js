@@ -10,16 +10,6 @@ const NavHeader = ({homeRef, projectsRef, aboutRef, contactRef}) => {
         });
     };
 
-    /*const scrollToSection = (ref) => {
-        if (ref.current) {
-            ref.current.scrollIntoView(
-                {
-                    behavior: 'smooth',
-                }
-            );
-        }
-    };*/
-
     const handleScroll = (ref) => {
         scrollToSection(ref)
     }

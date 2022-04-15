@@ -4,8 +4,9 @@
     "\\public",
     "\\src",
     "\\src\\components",
-    "\\src\\css"
+    "\\src\\css",
+    "\\src\\imgs"
   ],
-  "SelectedNode": "\\src\\components\\NavHeader.js",
+  "SelectedNode": "\\src\\css\\Projects.css",
   "PreviewInSolutionExplorer": false
 }
