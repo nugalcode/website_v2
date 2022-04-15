@@ -5,8 +5,9 @@
     "\\src",
     "\\src\\components",
     "\\src\\css",
-    "\\src\\imgs"
+    "\\src\\imgs",
+    "\\src\\imgs\\marfare_pics"
   ],
-  "SelectedNode": "\\src\\css\\Projects.css",
+  "SelectedNode": "\\src\\components\\Projects.js",
   "PreviewInSolutionExplorer": false
 }

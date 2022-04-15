@@ -15,6 +15,7 @@ const NavModal = ({ homeRef, projectsRef, aboutRef, contactRef }) => {
 	};
 
 	const handleScroll = (ref) => {
+		setIsOpen(false);
 		scrollToSection(ref);
 	}
 
@@ -32,7 +33,7 @@ const NavModal = ({ homeRef, projectsRef, aboutRef, contactRef }) => {
 
 			{isOpen &&
 				<div id="modal" onClick={() => setIsOpen(false)}>
-				<div className="contentWrap" onClick={(e) => handleStopPropagation()}>
+				<div className="contentWrap" onClick={(e) => handleStopPropagation(e)}>
 					<ul className="nav">
 						<li className="link" onClick={() => handleScroll(homeRef)} > Home </li>
 						<li className="link" onClick={() => handleScroll(projectsRef)}> Projects </li>
