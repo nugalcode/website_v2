@@ -1,0 +1,8 @@
+#About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: dimgray;
+    min-width: inherit;
+}

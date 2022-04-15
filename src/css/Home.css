@@ -1,0 +1,9 @@
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    height: 500px;
+    min-width: inherit;
+    margin-top: 200px;
+}

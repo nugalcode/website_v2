@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+import { useRef } from 'react';
 import './App.css';
+import Home from './components/Home.js';
+import Projects from './components/Projects.js';
+import About from './components/About.js';
+import Contact from './components/Contact.js';
+import NavHeader from './components/NavHeader.js'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const scrollToSection = (ref) => {
+        window.scrollTo({
+            top: ref.current.offsetTop,
+            behavior: 'smooth'
+        });
+    };
+
+    const homeRef = useRef();
+    const projectsRef = useRef();
+    const aboutRef = useRef();
+    const contactRef = useRef();
+
+    return (
+        <div className="App">
+            <NavHeader
+                homeRef={homeRef}
+                projectsRef={projectsRef}
+                aboutRef={aboutRef}
+                contactRef={contactRef}
+            />
+            <div ref={homeRef}/>
+            <Projects ref={projectsRef}/>
+            <About ref={aboutRef}/>
+            <Contact ref={contactRef}/>
+        </div>
+    );
 }
 
 export default App;
