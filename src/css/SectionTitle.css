@@ -1,0 +1,17 @@
+.sectionTitle {
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.sectionTitle span {
+    margin-bottom: 20px;
+}
+
+.titleUnderline {
+    display: flex;
+    width: 200px;
+    height: 1px;
+    background-color: lightcyan;
+}
