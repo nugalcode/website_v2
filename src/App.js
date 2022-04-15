@@ -8,13 +8,6 @@ import NavHeader from './components/NavHeader.js'
 
 function App() {
 
-    const scrollToSection = (ref) => {
-        window.scrollTo({
-            top: ref.current.offsetTop,
-            behavior: 'smooth'
-        });
-    };
-
     const homeRef = useRef();
     const projectsRef = useRef();
     const aboutRef = useRef();
@@ -28,7 +21,7 @@ function App() {
                 aboutRef={aboutRef}
                 contactRef={contactRef}
             />
-            <div ref={homeRef}/>
+            <Home ref={homeRef}/>
             <Projects ref={projectsRef}/>
             <About ref={aboutRef}/>
             <Contact ref={contactRef}/>

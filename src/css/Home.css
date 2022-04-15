@@ -5,5 +5,66 @@
     background-color: dimgray;
     height: 500px;
     min-width: inherit;
-    margin-top: 200px;
+}
+
+.picWrap {
+    display: flex;
+    width: 20%;
+    margin: 20px;
+}
+
+#myPic {
+    width: 100%;
+    border-radius: 200px;
+}
+
+#homeRightSideWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+    margin: 20px;
+}
+
+#myName {
+    font-size: 5rem;
+    padding: 10px;
+}
+
+#homeDescription {
+    display: flex;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+.links {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 5px;
+}
+
+.resume {
+    font-size: 1.2rem;
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button {
+    cursor: pointer;
+    margin: 5px 10px 5px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+    a:visited, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: white;
+    }
+
+.gitHubIcon {
+    transform: scale(1.5);
+    color: white;
 }
