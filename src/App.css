@@ -15,3 +15,16 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.section {
+    width: 80%;
+}
+
+:root {
+    /*hex colors from darkest to lightest*/
+    --grayOne: #070707;
+    --grayTwo: #101011;
+    --grayThree: #1a1a1b;
+    --grayFour: #242425;
+    --grayFive: #2d2d2f;
+}

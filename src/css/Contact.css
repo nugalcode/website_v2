@@ -1,7 +1,26 @@
 #Contact {
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--grayOne);
+    width: 80%;
+}
+
+#contactForm {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    height: 500px;
-    min-width: inherit;
+    width: 100%;
+}
+#contactTemplate {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#messageform {
+    min-height: 200px;
+}
+
+.courier {
+    font-family: Courier New;
 }

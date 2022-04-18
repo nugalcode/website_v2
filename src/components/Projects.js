@@ -7,7 +7,7 @@ import MusicProject from './MusicProject.js';
 
 const Projects = forwardRef((props, ref) => {
     return (
-        <div id="Projects" ref={ref}>
+        <div id="Projects" className="section" ref={ref}>
             <SectionTitle title={"Projects"}/>
             <div className="projectsWrap">
                 <MarfareProject />

@@ -6,7 +6,7 @@ import resume from '../imgs/resume_2022.pdf';
 
 const Home = forwardRef((props , ref) => {
     return (
-        <div id="Home" ref={ref}>
+        <div id="Home" className="section" ref={ref}>
             <div className="picWrap">
                 <img id="myPic" src={myPic} alt="pic"/>
             </div>
