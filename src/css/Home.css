@@ -44,14 +44,20 @@
 
 .resume {
     font-size: 1.2rem;
-    background-color: burlywood;
+    background-color: var(--grayThree);
     border-radius: 5px;
-    padding: 5px;
+    padding:8px;
+  
+}
+
+.resume:hover {
+    background-color: var(--grayFive);
 }
 
 .button {
     cursor: pointer;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 15px 5px 15px;
+    transition: background-color ease-in-out 0.5s;
 }
 
 a {

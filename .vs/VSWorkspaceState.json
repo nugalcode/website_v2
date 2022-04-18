@@ -6,8 +6,9 @@
     "\\src\\components",
     "\\src\\css",
     "\\src\\imgs",
-    "\\src\\imgs\\marfare_pics"
+    "\\src\\imgs\\marfare_pics",
+    "\\src\\imgs\\movie_pics"
   ],
-  "SelectedNode": "\\src\\components\\MusicProject.js",
+  "SelectedNode": "\\src\\components\\ContactForm.js",
   "PreviewInSolutionExplorer": false
 }

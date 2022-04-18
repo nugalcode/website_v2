@@ -22,14 +22,11 @@ const EmailForm = () => {
     return (
         <div id="contactForm">
             <form ref={form} onSubmit={sendEmail} id="contactTemplate">
-                <label>Your Name</label>
-                <input type="text" name="name" placeholder="Stephen Curry" className="courier" />
-                <label>Your Email</label>
-                <input type="email" name="email" placeholder="sc30@example.com" className="courier" />
-                <label>Your Message</label>
+                <input type="text" name="name" placeholder="name" className="courier field" />
+                <input type="email" name="email" placeholder="email" className="courier field" />
                 <textarea name="message" id="messageform"
-                    className="courier" />
-                <input type="submit" value="Send" />
+                    className="courier" placeholder="message"/>
+                <input type="submit" value="Send" className="sendButton courier"/>
             </form>
         </div>
     );

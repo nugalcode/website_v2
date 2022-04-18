@@ -4,12 +4,24 @@
     min-height: 100vh;
     background-color: var(--grayOne);
     width: 80%;
+    border-radius: 10px;
+}
+#Contact div {
+    border-radius: 10px;
 }
 
+.formWrap {
+    display: flex;
+    background-color: var(--grayTwo);
+    width: 80%;
+    align-self: center;
+    margin-top: 20px;
+}
 #contactForm {
     display: flex;
     justify-content: center;
     width: 100%;
+    padding: 50px;
 }
 #contactTemplate {
     display: flex;
@@ -19,8 +31,29 @@
 
 #messageform {
     min-height: 200px;
+    font-size: 2rem;
 }
 
 .courier {
     font-family: Courier New;
+    background-color: var(--grayFour);
+    border: 1px groove var(--grayThree);
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.field {
+    height: 50px;
+    font-size: 2rem;
+}
+
+.sendButton {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.sendButton:hover {
+    background-color: var(--grayFive);
 }

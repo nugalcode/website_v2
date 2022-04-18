@@ -5,9 +5,11 @@ import ContactForm from './ContactForm.js';
 
 const Contact = forwardRef((props, ref) => {
     return (
-        <div id="Contact" classname="section" ref={ref}>
+        <div id="Contact" className="section" ref={ref}>
             <SectionTitle title="Contact" />
-            <ContactForm />
+            <div className="formWrap">
+                <ContactForm />
+            </div>
 
         </div>
     )

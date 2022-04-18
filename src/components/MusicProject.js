@@ -9,10 +9,10 @@ export function MusicProject() {
             <div className="projectDescription">
                 <div className="projectLinks">
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
-                        <div className="liveButton button"> Live </div>
+                        <div className="projectButton button"> Live </div>
                     </a>
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
-                        <GitHubIcon className="gitHubIcon button" />
+                        <div className="projectButton button"> Repo </div>
                     </a>
                 </div>
                 <ul className="technologies">
