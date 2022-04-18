@@ -27,6 +27,9 @@
 #myName {
     font-size: 5rem;
     padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
 }
 
 #homeDescription {

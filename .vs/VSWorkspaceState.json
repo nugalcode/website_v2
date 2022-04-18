@@ -5,10 +5,8 @@
     "\\src",
     "\\src\\components",
     "\\src\\css",
-    "\\src\\imgs",
-    "\\src\\imgs\\marfare_pics",
-    "\\src\\imgs\\movie_pics"
+    "\\src\\imgs"
   ],
-  "SelectedNode": "\\src\\components\\ContactForm.js",
+  "SelectedNode": "\\src\\components\\MarfareProject.js",
   "PreviewInSolutionExplorer": false
 }

@@ -6,6 +6,7 @@ import MovieProject from './MovieProject.js';
 import MusicProject from './MusicProject.js';
 
 const Projects = forwardRef((props, ref) => {
+
     return (
         <div id="Projects" className="section" ref={ref}>
             <SectionTitle title={"Projects"}/>

@@ -17,6 +17,9 @@ export function MarfareProject() {
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
                         <div className="projectButton button"> Repo </div>
                     </a>
+                    <a href="https://docs.google.com/document/d/1CMreVQ3VCu-rIhICe1iwfcoPJGofpVOAXTz8djX8rj8/edit?usp=sharing" target="_blank" rel="noreferrer" title="user guide">
+                        <div className="projectButton button"> Guide </div>
+                    </a>
                 </div>
                 <div className="description">
                     <ul className="descriptionList">

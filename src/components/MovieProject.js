@@ -20,9 +20,9 @@ export function MovieProject() {
                 </div>
                 <div className="description">
                     <ul className="descriptionList">
-                        <li> A movies display app to search movies and see their details. </li>
-                        <li> The app fetches the movie data using the Movie Database API. </li>
-                        <li> There are options to search by genre, top rated, featured, or by title. </li>
+                        <li> A movies display app that uses The Movie Database API to fetch and display movie details. </li>
+                        <li> Filters and searches movies by genres, title, popularity, and rating. </li>
+                        <li> Uses localStorage to remember favorited movies. </li>
                     </ul>
                     <ul className="technologies">
                         <li> React </li>

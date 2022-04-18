@@ -1,12 +1,23 @@
-import React from 'react';
+import { useRef } from 'react';
 import '../css/SectionTitle.css';
+import useInView from '../hooks/useInView.js';
 
-const SectionTitle = ({title}) => {
+const SectionTitle = ({ title }) => {
+    const ref = useRef();
+
+    const inView = useInView(ref, '100px');
+
+    if (inView) {
+        console.log("inView");
+    }
+    if (!inView) {
+        console.log("not in view");
+    }
     return (
-        <div className="sectionTitle">
-            <div className="titleLine over" />
+        <div className="sectionTitle" ref={ref}>
+            <div className={inView ? "titleLine over animate" : "titleLine over"}/>
             <span> {title} </span>
-            <div className="titleLine under" />
+            <div className={inView ? "titleLine under animate" : "titleLine under"} />
         </div>
     )
 }
