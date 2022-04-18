@@ -11,9 +11,6 @@ export function MarfareProject() {
             </div>
             <div className="projectDescription">
                 <div className="projectLinks">
-                    <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
-                        <div className="projectButton button"> Live </div>
-                    </a>
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
                         <div className="projectButton button"> Repo </div>
                     </a>
@@ -24,17 +21,9 @@ export function MarfareProject() {
                 <div className="description">
                     <ul className="descriptionList">
                         <li> An original multiplayer browser game created by a team of four people. </li>
-                        <li> Are you sweet or sour? Select from four different mouse characters. </li>
-                        <li> Arm yourself and face other players in a battle-royale for kitchen supremacy! </li>
+                        <li> Offers character selection of 'salty', 'sweet', 'spicy', or 'sour' mice. </li>
+                        <li> Arms players with whisks, ketchup bottles, salt shakers, and more in a free-for-all battle-royale. </li>
                     </ul>
-                    <div className="myRole">
-                        <span className="projectSubtitle"> My Role </span>
-                        <ul className="descriptionList">
-                            <li> Designed and implemented main gameplay mechanics including physics, collision, movement, equipment, scoring, and map creation. </li>
-                            <li> Presented weekly demos to a senior software engineer. </li>
-                            <li> Incorporated animation spritesheets from an outside-hire designer. </li>
-                        </ul>
-                    </div>
                     <ul className="technologies">
                         <li> Phaser 3</li>
                         <li> PixiJS </li>

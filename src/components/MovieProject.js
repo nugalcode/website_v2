@@ -14,7 +14,7 @@ export function MovieProject() {
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
                         <div className="projectButton button"> Live </div>
                     </a>
-                    <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
+                    <a href="https://github.com/nugalcode/movies_app" target="_blank" rel="noreferrer" title="github">
                         <div className="projectButton button"> Repo </div>
                     </a>
                 </div>
