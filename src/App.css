@@ -18,6 +18,13 @@ ul {
 
 .section {
     width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.crimson {
+    color: crimson;
+    padding: 0px;
 }
 
 :root {

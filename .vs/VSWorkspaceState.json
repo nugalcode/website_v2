@@ -3,12 +3,8 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\components",
-    "\\src\\css",
-    "\\src\\hooks",
-    "\\src\\imgs",
     "\\src\\imgs\\music_pics"
   ],
-  "SelectedNode": "\\src\\components\\MusicProject.js",
+  "SelectedNode": "\\src\\components",
   "PreviewInSolutionExplorer": false
 }

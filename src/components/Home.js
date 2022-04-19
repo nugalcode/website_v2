@@ -11,11 +11,9 @@ const Home = forwardRef((props , ref) => {
                 <img className="myPic" src={myPic} alt="pic"/>
             </div>
             <div id="homeRightSideWrapper">
-                <span id="myName"> Jed Mandy Nugal </span>
-                <div id="homeDescription"> Computer Science and Engineering bachelor from the University of California Davis
-                    interested in front end web development. I am excited about creating neat looking
-                    applications, and this is a placeholder I'll probably change later.
-                </div>
+                <span className="myName"> Jed Mandy </span>
+                <span className="myName"> Nugal<span className="crimson">,</span> </span>
+                <span className="myName"> Dev<span className="crimson">.</span> </span>
                 <div className="links">
                     <a href={resume} target="_blank" rel="noreferrer">
                         <div className="resume button"> Resume </div>

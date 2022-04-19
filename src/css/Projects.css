@@ -38,7 +38,6 @@
 .technologies {
     display: flex;
     list-style-type: circle;
-    
     align-self: center;
     flex-wrap: wrap;
 }
@@ -80,11 +79,12 @@
     justify-content: center;
     width: 50%;
     padding: 5px;
-    background-color: aqua;
+    border: 0.5px solid var(--grayFive);
 }
 
 .projectImg {
     width: 100%;
+    border-radius: 5px;
 }
 
 .projectLinks {
