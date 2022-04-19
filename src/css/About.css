@@ -3,7 +3,7 @@
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .aboutContentContainer {
@@ -24,10 +24,15 @@
     border-radius: 500px;
 }
 
+.davisLink {
+    color: crimson !important;
+}
+
 #aboutDescription {
     display: flex;
     width: 50%;
     padding: 20px;
+    line-height: 2rem;
 }
 
 @media screen and (max-width:990px) {

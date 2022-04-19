@@ -11,9 +11,12 @@ const About = forwardRef((props, ref) => {
                 <div className="aboutPicWrap">
                     <img className="aboutPic" src={myPic} alt="pic" />
                 </div>
-                <div id="aboutDescription"> Computer Science and Engineering bachelor from the University of California Davis
-                    interested in front end web development. I am excited about creating neat looking
-                    applications, and this is a placeholder I'll probably change later.
+                <div id="aboutDescription">
+                    <span> Hello, thank you for scrolling through my site! I'm a front-end web developer based in the San Francisco Bay Area.
+                    I graduated from the <a className="davisLink" href="https://www.ucdavis.edu/" target="_blank" rel="noreferrer">University of California, Davis, </a>
+                        as a major in Computer Science and Engineering. I am passionate about solving problems through coding, as well as empowering
+                        people's own passions and interests through my projects. 
+                    </span>
                 </div>
             </div>
         </div>
