@@ -6,6 +6,7 @@ import About from './components/About.js';
 import Contact from './components/Contact.js';
 import NavHeader from './components/NavHeader.js'
 import NavModal from './components/NavModal.js';
+import Footer from './components/Footer.js';
 
 function App() {
 
@@ -29,7 +30,9 @@ function App() {
             <Home ref={homeRef}/>
             <Projects ref={projectsRef}/>
             <About ref={aboutRef}/>
-            <Contact ref={contactRef}/>
+            <Contact ref={contactRef} />
+
+            <Footer />
         </div>
     );
 }

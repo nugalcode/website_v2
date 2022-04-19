@@ -1,0 +1,10 @@
+#Footer {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom:0;
+    right: 0;
+    flex-grow: 0;
+    background-color: crimson;
+    height: 50px;
+}
