@@ -39,4 +39,8 @@
     .aboutContentContainer {
         flex-direction: column;
     }
+
+    #aboutDescription {
+        width: 100%;
+    }
 }
