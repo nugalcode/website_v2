@@ -56,10 +56,17 @@
 .descriptionList {
     display: flex;
     flex-direction: column;
-    list-style-type: disc;
+    list-style-type: none;
     padding: 0px 5px 0px 5px;
 }
-
+.descriptionList li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: crimson; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1rem; /* Also needed for space (tweak if needed) */
+    margin-left: -1rem; /* Also needed for space (tweak if needed) */
+}
 .descriptionList li {
     margin: 5px 10px 5px 10px;
 }
