@@ -1,7 +1,7 @@
 #Contact {
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     width: 80%;
     border-radius: 10px;
 }

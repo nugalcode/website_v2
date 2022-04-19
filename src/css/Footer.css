@@ -6,5 +6,45 @@
     right: 0;
     flex-grow: 0;
     background-color: crimson;
-    height: 50px;
+    height: 80px;
+    justify-content: center;
+    
 }
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: var(--grayThree);
+}
+
+#footerDescription {
+    display: flex;
+    align-items: center;
+}
+
+#footerDescription span {
+    padding: 0px 10px 0px 10px;
+}
+
+#footerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerButton {
+   padding: 8px;
+   border-radius: 5px;
+   margin: 0px 5px 0px 5px;
+}
+
+.footerButton:hover {
+    background-color: var(--grayFive);
+}
+
+.footerResume {
+    background-color: var(--grayFour);
+}
+   
