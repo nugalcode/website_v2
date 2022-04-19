@@ -105,6 +105,7 @@ a {
 
     #homeRightSideWrapper {
         align-items: center;
+        text-align: center;
         width: 80%;
     }
     .links {
