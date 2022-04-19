@@ -7,12 +7,6 @@ const SectionTitle = ({ title }) => {
 
     const inView = useInView(ref, '100px');
 
-    if (inView) {
-        console.log("inView");
-    }
-    if (!inView) {
-        console.log("not in view");
-    }
     return (
         <div className="sectionTitle" ref={ref}>
             <div className={inView ? "titleLine over animate" : "titleLine over"}/>
