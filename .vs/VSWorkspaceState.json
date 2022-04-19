@@ -3,8 +3,9 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\imgs\\music_pics"
+    "\\src\\components",
+    "\\src\\css"
   ],
-  "SelectedNode": "\\src\\components",
+  "SelectedNode": "\\src\\components\\Home.js",
   "PreviewInSolutionExplorer": false
 }
