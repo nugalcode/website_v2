@@ -1,8 +1,29 @@
 #About {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 500px;
+    min-height: 100vh;
     background-color: dimgray;
-    min-width: inherit;
+    flex-direction: column;
+}
+
+.aboutContentContainer {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.aboutPicWrap {
+    display: flex;
+    min-width: 50%;
+    margin: 20px;
+}
+
+.aboutPic {
+    width: 100%;
+    border-radius: 500px;
+}
+
+#aboutDescription {
+    display: flex;
+    width: 50%;
 }

@@ -8,7 +8,7 @@ const Home = forwardRef((props , ref) => {
     return (
         <div id="Home" className="section" ref={ref}>
             <div className="picWrap">
-                <img id="myPic" src={myPic} alt="pic"/>
+                <img className="myPic" src={myPic} alt="pic"/>
             </div>
             <div id="homeRightSideWrapper">
                 <span id="myName"> Jed Mandy Nugal </span>
