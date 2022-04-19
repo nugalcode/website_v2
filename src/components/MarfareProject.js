@@ -4,12 +4,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export function MarfareProject() {
     return (
-        <div className="project">
-            <span className="projectTitle"> The Marfare: A 2D Web Game </span>
+        <div className="project" id="marfareProject">
             <div className="projectImgWrap"> 
                 <img className="projectImg" src={marfare_menu_pic} alt="marfare_pic" />
             </div>
             <div className="projectDescription">
+                <span className="projectTitle"> The Marfare: A 2D Web Game </span>
                 <div className="projectLinks">
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
                         <div className="projectButton button"> Repo </div>

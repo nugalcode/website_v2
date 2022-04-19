@@ -11,32 +11,37 @@
     display: flex;
     min-width: 100%;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    flex-basis: 40%;
+    justify-content: space-between;
+    width: 80%;
     margin: 20px;
     padding: 10px;
+    background-color: burlywood;
 }
 
 .projectTitle {
-    padding: 30px;
+    padding: 10px;
     font-size: 2rem;
 }
 
 .projectDescription {
     display: flex;
     flex-direction: column;
+    background-color: cadetblue;
+    width: 50%;
 }
 .technologies {
     display: flex;
     list-style-type: circle;
-    justify-content: center;
+    
     align-self: center;
+    flex-wrap: wrap;
 }
 
 .technologies li {
@@ -48,6 +53,7 @@
     flex-direction: column;
     padding: 10px;
     font-size: 1.1rem;
+    background-color: coral;
 }
 
 .descriptionList {
@@ -74,22 +80,19 @@
 .projectImgWrap {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     padding: 5px;
+    background-color: aqua;
 }
 
 .projectImg {
-   
-    max-height: 269px;
+    width: 100%;
 }
 
 .projectLinks {
     display: flex;
     width: 50%;
     margin: 5px;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
 }
 
 .projectButton {
@@ -101,4 +104,23 @@
 
 .projectButton:hover {
     background-color: var(--grayFive);
+}
+
+@media screen and (max-width: 1338px) {
+
+    .project {
+        flex-direction: column;
+    }
+
+    #marfareProject.project, #musicProject.project {
+        flex-direction: column-reverse; 
+    }
+
+    .projectImgWrap {
+        width: 100%;
+    }
+
+    .projectDescription {
+        width: 100%;
+    }
 }

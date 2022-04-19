@@ -4,12 +4,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export function MovieProject() {
     return (
-        <div className="project">
-            <span className="projectTitle"> The Movie Database Movies App </span>
-            <div className="projectImgWrap">
-                <img className="projectImg" src={movie_pic} alt="movie_pic" />
-            </div>
+        <div className="project" id="movieProject">
             <div className="projectDescription">
+                <span className="projectTitle"> The Movie Database Movies App </span>
                 <div className="projectLinks">
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
                         <div className="projectButton button"> Live </div>
@@ -29,7 +26,9 @@ export function MovieProject() {
                         <li> The Movie Database API </li>
                     </ul>
                 </div>
-
+            </div>
+            <div className="projectImgWrap">
+                <img className="projectImg" src={movie_pic} alt="movie_pic" />
             </div>
         </div>
     )

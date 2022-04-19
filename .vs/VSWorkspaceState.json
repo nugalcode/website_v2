@@ -5,8 +5,10 @@
     "\\src",
     "\\src\\components",
     "\\src\\css",
-    "\\src\\imgs"
+    "\\src\\hooks",
+    "\\src\\imgs",
+    "\\src\\imgs\\music_pics"
   ],
-  "SelectedNode": "\\src\\components\\MarfareProject.js",
+  "SelectedNode": "\\src\\components\\MusicProject.js",
   "PreviewInSolutionExplorer": false
 }
