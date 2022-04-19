@@ -42,7 +42,7 @@ const Home = forwardRef((props , ref) => {
                         <div className="resume button"> Resume </div>
                     </a>
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer">
-                        <GitHubIcon className="gitHubIcon button" />
+                        <GitHubIcon className="gitHubIcon button"/>
                     </a>
                 </div>
             </div>

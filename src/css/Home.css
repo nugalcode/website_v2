@@ -82,6 +82,12 @@ a {
 .gitHubIcon {
     transform: scale(1.5);
     color: white;
+    background-color: var(--grayThree);
+    border-radius: 30px;
+}
+
+.gitHubIcon:hover {
+    background-color: var(--grayFive);
 }
 
 @media screen and (max-width:990px) {
