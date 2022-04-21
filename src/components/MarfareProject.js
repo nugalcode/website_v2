@@ -4,8 +4,10 @@ import marfare_menu_pic from '../imgs/marfare_pics/marfare_menu.png';
 export function MarfareProject() {
     return (
         <div className="project" id="marfareProject">
-            <div className="projectImgWrap"> 
-                <img className="projectImg" src={marfare_menu_pic} alt="marfare_pic" />
+            <div className="projectImgWrap">
+                <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
+                    <img className="projectImg" src={marfare_menu_pic} alt="marfare_pic" />
+                </a>
             </div>
             <div className="projectDescription">
                 <span className="projectTitle"> The Marfare: A 2D Web Game </span>

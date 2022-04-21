@@ -27,7 +27,9 @@ export function MovieProject() {
                 </div>
             </div>
             <div className="projectImgWrap">
-                <img className="projectImg" src={movie_pic} alt="movie_pic" />
+                <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
+                    <img className="projectImg" src={movie_pic} alt="movie_pic" />
+                </a>
             </div>
         </div>
     )

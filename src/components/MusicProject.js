@@ -5,7 +5,9 @@ export function MusicProject() {
     return (
         <div className="project" id="musicProject">
             <div className="projectImgWrap">
-                <img className="projectImg" src={music_pic} alt="music_pic" />
+                <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
+                    <img className="projectImg" src={music_pic} alt="music_pic" />
+                </a>
             </div>
             <div className="projectDescription">
                 <span className="projectTitle"> Spotify API Music Player </span>
