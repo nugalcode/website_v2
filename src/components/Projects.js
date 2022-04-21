@@ -11,9 +11,9 @@ const Projects = forwardRef((props, ref) => {
         <div id="Projects" className="section" ref={ref}>
             <SectionTitle title={"Projects"}/>
             <div className="projectsWrap">
-                <MarfareProject />
+                <MusicProject />
                 <MovieProject />
-                <MusicProject /> 
+                <MarfareProject />
             </div>
         </div>
     )
