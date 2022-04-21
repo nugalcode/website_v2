@@ -1,6 +1,5 @@
 import React from 'react';
 import movie_pic from '../imgs/movie_pics/movies_app_ss_home.JPG';
-import GitHubIcon from '@mui/icons-material/GitHub';
 
 export function MovieProject() {
     return (

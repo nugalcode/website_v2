@@ -15,6 +15,7 @@ const Footer = () => {
                     <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer">
                         <GitHubIcon className="footerButton" />
                     </a>
+                    <div> nugaljed@gmail.com </div>
                 </div>
                 <div id="footerDescription">
                     <span> Developed by Jed Mandy Nugal </span>

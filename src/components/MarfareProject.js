@@ -1,6 +1,5 @@
 import React from 'react';
 import marfare_menu_pic from '../imgs/marfare_pics/marfare_menu.png';
-import GitHubIcon from '@mui/icons-material/GitHub';
 
 export function MarfareProject() {
     return (
