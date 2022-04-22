@@ -7,7 +7,7 @@ export function MovieProject() {
             <div className="projectDescription">
                 <span className="projectTitle"> The Movie Database Movies App </span>
                 <div className="projectLinks">
-                    <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
+                    <a href="https://nugalmoviesapp.netlify.app/" target="_blank" rel="noreferrer" title="live">
                         <div className="projectButton button"> Live </div>
                     </a>
                     <a href="https://github.com/nugalcode/movies_app" target="_blank" rel="noreferrer" title="github">
@@ -27,7 +27,7 @@ export function MovieProject() {
                 </div>
             </div>
             <div className="projectImgWrap">
-                <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="live">
+                <a href="https://nugalmoviesapp.netlify.app/" target="_blank" rel="noreferrer" title="live">
                     <img className="projectImg" src={movie_pic} alt="movie_pic" />
                 </a>
             </div>

@@ -5,14 +5,14 @@ export function MarfareProject() {
     return (
         <div className="project" id="marfareProject">
             <div className="projectImgWrap">
-                <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
+                <a href="https://github.com/nugalm/ECS_193_Project" target="_blank" rel="noreferrer" title="github">
                     <img className="projectImg" src={marfare_menu_pic} alt="marfare_pic" />
                 </a>
             </div>
             <div className="projectDescription">
                 <span className="projectTitle"> The Marfare: A 2D Web Game </span>
                 <div className="projectLinks">
-                    <a href="https://github.com/nugalcode" target="_blank" rel="noreferrer" title="github">
+                    <a href="https://github.com/nugalm/ECS_193_Project" target="_blank" rel="noreferrer" title="github">
                         <div className="projectButton button"> Repo </div>
                     </a>
                     <a href="https://docs.google.com/document/d/1CMreVQ3VCu-rIhICe1iwfcoPJGofpVOAXTz8djX8rj8/edit?usp=sharing" target="_blank" rel="noreferrer" title="user guide">
