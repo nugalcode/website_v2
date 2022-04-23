@@ -5,14 +5,14 @@ export function MusicProject() {
     return (
         <div className="project" id="musicProject">
             <div className="projectImgWrap">
-                <a href="https://github.com/nugalcode/music_app" target="_blank" rel="noreferrer" title="live">
+                <a href="https://github.com/nugalcode/music_app" target="_blank" rel="noreferrer">
                     <img className="projectImg" src={music_pic} alt="music_pic" />
                 </a>
             </div>
             <div className="projectDescription">
                 <span className="projectTitle"> Spotify API Music Player </span>
                 <div className="projectLinks">
-                    <a href="https://docs.google.com/document/d/1C8v7zAemUZ1iJDIxxE02xptXoQHYDJpya5S-GOw6O0Y/edit?usp=sharing" target="_blank" rel="noreferrer" title="live">
+                    <a href="https://docs.google.com/document/d/1C8v7zAemUZ1iJDIxxE02xptXoQHYDJpya5S-GOw6O0Y/edit?usp=sharing" target="_blank" rel="noreferrer" title="Google Docs">
                         <div className="projectButton button"> Docs </div>
                     </a>
                     <a href="https://github.com/nugalcode/music_app" target="_blank" rel="noreferrer" title="github">
