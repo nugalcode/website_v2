@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
-    "\\src\\components",
-    "\\src\\css"
+    "\\src\\imgs"
   ],
-  "SelectedNode": "\\src\\components\\MovieProject.js",
+  "SelectedNode": "\\public\\logo192.png",
   "PreviewInSolutionExplorer": false
 }
