@@ -3,8 +3,9 @@
     "",
     "\\public",
     "\\src",
+    "\\src\\components",
     "\\src\\imgs"
   ],
-  "SelectedNode": "\\src\\imgs\\resume_2022.pdf",
+  "SelectedNode": "\\src\\components\\MarfareProject.js",
   "PreviewInSolutionExplorer": false
 }

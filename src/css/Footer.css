@@ -5,7 +5,6 @@
     bottom:0;
     right: 0;
     flex-grow: 0;
-    background-color: crimson;
     height: 80px;
     justify-content: center;
     
@@ -22,6 +21,7 @@
 #footerDescription {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #footerDescription span {
@@ -32,6 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footerButton {
@@ -47,4 +48,22 @@
 .footerResume {
     background-color: var(--grayFour);
 }
-   
+
+@media screen and (max-width: 475px) {
+    #Footer {
+        height: 150px;
+    }
+
+    #footerDescription {
+        flex-direction: column;
+    }
+
+    #footerDescription > * {
+        margin: 5px;
+    }
+
+    #footerLinks {
+        flex-direction: column;
+    }
+
+}

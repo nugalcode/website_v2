@@ -18,8 +18,8 @@ const Footer = () => {
                     <div> nugaljed@gmail.com </div>
                 </div>
                 <div id="footerDescription">
-                    <span> Developed by Jed Mandy Nugal </span>
-                    <CopyrightIcon />
+                    <span> Jed Mandy Nugal </span>
+                    <CopyrightIcon> </CopyrightIcon>
                     <span> 2022 </span>
                 </div>
             </div>
