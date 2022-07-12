@@ -2,7 +2,7 @@
 
 The purpose of this project is to display my portfolio, while practicing ReactJS, CSS, and HTML. 
 
-[Link to portfolio](https://jedmandynugal.netlify.app/)
+[Link to live](https://jedmandynugal.netlify.app/)
 
 ## Features
 ### Sections
@@ -17,7 +17,7 @@ The purpose of this project is to display my portfolio, while practicing ReactJS
 1) Scroll to sections on click (**window.scrollTo** and **useRef**)
 2) Sticky Header
 3) Fixed Footer
-4) Send message to email directly
+4) Send email directly
 
 ## Tools & Technologies
 
